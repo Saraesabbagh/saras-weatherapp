@@ -1,0 +1,111 @@
+.wholePage {
+  display: block;
+  margin: 100px 100px;
+  border: 10px, solid, black;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  border-radius: 30px;
+  background: radial-gradient(
+    circle at 3.1% 8.2%,
+    rgb(248, 250, 107) 0%,
+    rgb(238, 148, 148) 98.2%
+  );
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: navy;
+}
+h2 {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  color: white;
+}
+h3 {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: white;
+}
+.searchBar {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.askCity {
+  display: block;
+  text-align: center;
+  margin: 10px;
+}
+
+.button {
+  border-radius: 30px;
+  padding: 5px 10px 5px 10px;
+  background: radial-gradient(
+    circle at 12.3% 19.3%,
+    rgb(85, 88, 218) 0%,
+    rgb(95, 209, 249) 100.2%
+  );
+  color: white;
+  box-shadow: 50em, gray;
+  border-style: solid, navy;
+}
+
+.button:hover {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(236, 158, 248) 0%,
+    rgb(131, 83, 241) 90.1%
+  );
+  color: navy;
+}
+
+.currentWeather {
+  border: solid, 10px;
+  background: radial-gradient(
+    circle at 12.3% 19.3%,
+    rgb(85, 88, 218) 0%,
+    rgb(95, 209, 249) 100.2%
+  );
+  margin-bottom: 0px;
+  margin-top: 10px;
+  border-radius: 30px;
+}
+.upcomingWeather {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(236, 158, 248) 0%,
+    rgb(131, 83, 241) 90.1%
+  );
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border-radius: 30px;
+}
+.col-4 {
+  margin-bottom: 30px;
+}
+i {
+  color: navy;
+  font-size: 30px;
+  display: block;
+  text-align: center;
+}
+.card {
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+strong {
+  display: block;
+  text-align: center;
+}
